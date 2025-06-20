@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.685)),
+                url('../cw_sem02/img/istockphoto-619643870-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    position: relative; 
+}
+
+/* logo */
+.title_logo img{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%); 
+    height: 120px;
+}
+
+/* mission statement */
+.mission {
+    margin-top: 230px;
+}
+
+h3 {
+    text-align: center;
+    color: goldenrod;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.mission p {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* group members */
+.members{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.members h3{
+    font-size: 25px;
+}
+
+ul {
+  list-style: none; 
+  padding: 0;
+  margin-top: 8px;
+}
+
+ul li{
+    font-weight: bold;
+    color: white;
+}
+
+/* animation loader */
+.square-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  animation: bounce 1s infinite ease-in-out;
+  border-radius: 4px; 
+}
+
+.square:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.square:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+/* FoodFirst color palette */
+.yellow { background-color: #FFB800; }  
+.green  { background-color: #7ED957; }  
+.brown  { background-color: #A04000; } 
+ 
+
+/* Animation */
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.5);
+  }
+}
+
+/* editor button*/
+.editor{
+    margin: 50px 650px 40px;
+    align-items: center;
+    text-align: center;
+    background-color:darkgoldenrod;
+    color: white;
+    border-radius: 8px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+a h4:hover{
+    color:#A04000;
+   
+}
+
+
+/* watermark */
+h4{
+    text-align: center;
+    color: #ffffffcb;
+}
+
