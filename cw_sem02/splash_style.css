@@ -89,7 +89,7 @@ ul li{
 .brown  { background-color: #A04000; } 
  
 
-/* Animation */
+/* Animation */           
 @keyframes bounce {
   0%, 80%, 100% {
     transform: scale(1);
