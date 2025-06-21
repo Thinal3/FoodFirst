@@ -58,8 +58,10 @@ header{
 
 #nav_bar a.active {
     color: #A04000;
-    border-bottom: 2px solid #A04000;
     font-weight: bold;
+}
+#nav_bar a.active::after {
+    width: 100%;  
 }
 
 
