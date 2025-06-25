@@ -158,10 +158,75 @@ header {
   z-index: -1;
 }
 
+.tag{
+    display: flex;
+    margin:350px auto auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+
+#contents h2 {
+    margin: 0; 
+    padding: 0 10px;
+    font-size: 30px;
+}
+#ye { color: #FFB800; }  
+#gr { color: #7ED957; }  
+#br { color: #A04000 } 
+
 /* content section*/
 .content_sec{
-    margin-top:400px;
+    margin:20px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    grid-gap: 2rem;
+
 }
+
+.content{
+    display: block;
+    overflow: hidden;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.753);
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+}
+
+.img_box img{
+    display: block;
+    width: 100%;
+    height: 27rem;
+    object-fit: cover;
+}
+
+.content_hover{
+    position: absolute;
+    background-color: rgba(0 0 0/50%);
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    height: 13%;
+    padding: 2.2rem 0;
+    overflow: hidden;
+    transition: 0.7s;
+}
+
+.content_hover:hover{
+    height: 60%;
+    transition: 0.7s;
+}
+
+
+
 
 /*Mission*/
 
