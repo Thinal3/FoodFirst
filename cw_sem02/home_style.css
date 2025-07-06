@@ -224,12 +224,26 @@ header {
     transition: 0.7s;
 }
 
-.content_hover:hover{
-    height: 60%;
-    transition: 0.7s;
+.content_hover h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 20px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.content_hover p{
+    font-size: 1.1rem;
+    font-weight: 40;
+    line-height: 1.5rem;
+    padding: 1.15rem;
+    margin-left: 20px;
+}
 
+.content_hover:hover{
+    height: 65%;
+    transition: 0.8s;
+}
 
 /*Mission*/
 
